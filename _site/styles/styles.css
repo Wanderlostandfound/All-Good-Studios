@@ -1,0 +1,51 @@
+/* ----- CSS RESET -----*/
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+/* *{
+  border: 1px solid rgb(220,220,220);
+} */
+
+/* ----- LAYOUT, PADDING, MARGIN ---- */
+
+/* ----- TYPOGRAPHY ----- */
+body {
+
+}
+
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+/* ----- HELPERS ---- */
+
+/* ----- UNIVERSAL STYLES ---- */
+
+/* ----- FOOTER STYLES ---- */
+
+/* ----- PROJECT PAGE STYLES ----- */
+
+/* ----- MEDIA QUERIES ---- */
+/* ----- TABLET ---- */
+
+/* ----- DESKTOP ---- */
