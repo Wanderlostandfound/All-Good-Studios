@@ -1,41 +1,84 @@
 ---
 layout: default
 ---
-{% include nav.html %}
+{% include nav-mini.html %}
 
-<section class="">
-  <div class="header-img" style="background-image:url('{{page.header-img}}')">
-  </div>
-</section>
+<div class="padded3">
+  <section class="header padded-1">
+    <div class="header-img" style="background-image:url('{{page.header-img}}')">
+    </div>
+  </section>
 
-<section class="portfolio-text">
-  <div class="sector">
-    <p>Sector:</p>
-    <p>{{page.sector}}</p>
-  </div>
-  <div class="create">
-    <p>We helped create:</p>
-    <p>{{page.created}}</p>
-  </div>
-  <div class="main-text">
-    {{content}}
-  </div>
-</section>
+  <section class="grid-noGutter">
+    <div class="col-6_sm-12">
+      <div class="padded2">
+        <h2 class="padded-1">{{page.title}}</h2>
+      </div>
+      <div class="padded-1">
+        <div class="grid sector">
+          <div class="col-6_sm-12">
+            <p class="grey">Sector:</p>
+            <p>{{page.sector}}</p>
+          </div>
+          <div class="col-6_sm-12 spacer">
+          </div>
+        </div>
+        <div class="grid create">
+          <div class="col-6_sm-12">
+            <p class="grey">We helped create:</p>
+            <p>{{page.created}}</p>
+          </div>
+          <div class="col-6_sm-12">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6_sm-12">
+      <div class="padded-1">
+        <div class="horizontal-image" style="background-image:url('{{page.horizontal-img1}}')">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grid-reverse-noGutter">
+    <div class="col-6_sm-12-middle">
+      <h4 class="padded-1">{{page.description}}</h4>
+    </div>
+    <div class="col-6_sm-12">
+      <div class="padded-1">
+        <div class="horizontal-image" style="background-image:url('{{page.horizontal-img2}}')">
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="col-12 gallery">
-  <div class="col-12 portfolio-imgh">
-    <img src="{{page.horizontal-img1}}">
-  </div>
-  <div class="col-6 portfolio-imgv">
-    <img src="{{page.vertical-img1}}">
-  </div>
-  <div class="col-6 portfolio-imgv">
-    <img src="{{page.vertical-img2}}">
-  </div>
-  <div class="col-12 portfolio-imgh">
-    <img src="{{page.horizontal-img2}}">
-  </div>
-  <div class="col-12 portfolio-imgh">
-    <img src="{{page.horizontal-img3}}">
-  </div>
-</section>
+
+
+  <section class="portfolio-text">
+
+    <div class="main-text padded-1">
+      {{content}}
+    </div>
+  </section>
+
+  <section class="grid-noGutter gallery">
+    <div class="col-6">
+      <div class="padded-1">
+        <div class="portfolio-imgv" style="background-image:url('{{page.vertical-img1}}')">
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="padded-1">
+        <div class="portfolio-imgv" style="background-image:url('{{page.vertical-img2}}')">
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="padded-1">
+        <div class="portfolio-imgh" style="background-image:url('{{page.horizontal-img3}}')">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

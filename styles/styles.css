@@ -12,28 +12,49 @@ body{
 } */
 
 /* ----- LAYOUT, PADDING, MARGIN ---- */
+.padded-1 {
+  padding: 0.5rem;
+}
+.padded1 {
+  padding: 1rem;
+}
+.padded1t {
+  padding: 1rem 0 0 0;
+}
+.padded2 {
+  padding: 2rem;
+}
+.padded3 {
+  padding: 3rem;
+}
 
 /* ----- TYPOGRAPHY ----- */
 
-font-family: 'Muli', sans-serif;
-font-family: 'Special Elite', cursive;
-font-family: 'Lato', sans-serif;
-
 body {
-
+  font-family: 'Lato', sans-serif;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 h1 {
-
+  color: black;
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  font-size: 4rem;
 }
-h2 {
-
+h2,
+h4 {
+  font-family: 'Special Elite', cursive;
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgb(40,40,40);
 }
 h3 {
 
 }
 h4 {
-
+  font-size: 3rem;
 }
 h5 {
 
@@ -43,14 +64,88 @@ h6 {
 }
 
 /* ----- HELPERS ---- */
+.spacer {
+  min-height: 15vh;
+}
+.grey {
+  color: rgb(152,152,152);
+}
+
+/* ----- NAV STYLES ---- */
+.icon {
+  font-size: 5rem;
+}
+nav {
+  padding: 0.5rem 3rem;
+}
+.nav-mini {
+  position: absolute;
+  padding: 4rem 5rem;
+}
+.nav-mini h1 {
+  color: white;
+}
+
+/* ----- HERO STYLES ---- */
+.parallax {
+  background-image: url(/images/geo1small.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
 /* ----- UNIVERSAL STYLES ---- */
 
 /* ----- FOOTER STYLES ---- */
+footer {
+  border-top: 1px solid rgb(152,152,152);
+}
 
-/* ----- PROJECT PAGE STYLES ----- */
-
+/* ----- PORTFOLIO PAGE STYLES ----- */
+.header-img {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.horizontal-image {
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+}
+.sector p,
+.create p {
+  font-size: 1.2rem;
+  font-family: 'Special Elite', cursive;
+  padding: 0.25rem;
+}
+.sector {
+  padding-top: 2rem;
+}
+.portfolio-text {
+  padding: 1rem 0;
+}
+.portfolio-imgv {
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-imgh {
+  height: 100vh;
+  padding-top: 1rem;
+  background-position: center;
+  background-size: cover;
+}
 /* ----- MEDIA QUERIES ---- */
-/* ----- TABLET ---- */
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
-/* ----- DESKTOP ---- */
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+}
