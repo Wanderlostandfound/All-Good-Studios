@@ -24,8 +24,17 @@ body{
 .padded2 {
   padding: 2rem;
 }
+.padded2b {
+  padding-bottom: 2rem;
+}
+.padded2tb {
+  padding: 2rem 0;
+}
 .padded3 {
   padding: 3rem;
+}
+.padded3b {
+  padding-bottom: 3rem;
 }
 
 /* ----- TYPOGRAPHY ----- */
@@ -37,7 +46,8 @@ body {
   font-size: 1.5rem;
 }
 
-h1 {
+h1,
+h6 {
   color: black;
   font-family: 'Muli', sans-serif;
   text-decoration: none;
@@ -60,7 +70,14 @@ h5 {
 
 }
 h6 {
-
+  font-size: 2.5rem;
+}
+a:hover {
+  color: rgb(232,162,66);
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ----- HELPERS ---- */
@@ -69,6 +86,15 @@ h6 {
 }
 .grey {
   color: rgb(152,152,152);
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.lineheight {
+  line-height: 1.5rem;
 }
 
 /* ----- NAV STYLES ---- */
@@ -93,15 +119,27 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
 }
 
 /* ----- UNIVERSAL STYLES ---- */
 
 /* ----- FOOTER STYLES ---- */
-footer {
+
+.portfolio-footer {
   border-top: 1px solid rgb(152,152,152);
 }
+.footer-text {
+  font-size: 1.1rem;
+}
+.copyright {
+  font-family: 'Special Elite', cursive;
+  font-size: 0.8rem;
+}
+.copyright a {
+  text-decoration: underline;
+}
+
 
 /* ----- PORTFOLIO PAGE STYLES ----- */
 .header-img {
@@ -137,6 +175,7 @@ footer {
   background-position: center;
   background-size: cover;
 }
+
 /* ----- MEDIA QUERIES ---- */
 /* Tablet */
 @media screen and (max-width: 1023px) {

@@ -2,7 +2,7 @@
 layout: portfolio
 title: VIA Hostels
 description: Designing for our youth.
-featured-img: /images/carnations.jpg
+featured-img: /images/iceland.jpg
 header-img: /images/bike.jpg
 sector:
   - Hospitality
