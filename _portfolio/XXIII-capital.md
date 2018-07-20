@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: VIA Hostels
-description: Designing for our youth.
-featured-img: /images/sunflower.jpg
+title: XXIII Capital
+description: Redefining a company.
+featured-img: /images/trees.jpg
 header-img: /images/bike.jpg
 sector:
-  - Hospitality
+  - Branding & Graphic
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

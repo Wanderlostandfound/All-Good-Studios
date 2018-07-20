@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: VIA Hostels
-description: Designing for our youth.
-featured-img: /images/sunflower.jpg
+title: SGW Global
+description: Communication is key.
+featured-img: /images/jars.jpg
 header-img: /images/bike.jpg
 sector:
-  - Hospitality
+  - Office Space
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

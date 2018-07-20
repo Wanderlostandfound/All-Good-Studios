@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: VIA Hostels
-description: Designing for our youth.
-featured-img: /images/sunflower.jpg
+title: Grandview
+description: Capturing life's moments.
+featured-img: /images/carnations.jpg
 header-img: /images/bike.jpg
 sector:
-  - Hospitality
+  - Residential
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

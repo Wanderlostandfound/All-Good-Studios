@@ -1,0 +1,15 @@
+<section class="grid gallery">
+
+{% for item in site.portfolio %}
+
+
+  <div class="col-3_sm-12 page-preview" style="background-image:url('{{item.featured-img}}')">
+    <h5 class="padded1">{{item.title}}</h5>
+    <p class="padded1">{{item.description}}
+    <a href="{{item.url}}">Read more.</a></p>
+  </div>
+
+
+{% endfor %}
+
+</section>

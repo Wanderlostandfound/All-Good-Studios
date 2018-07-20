@@ -36,6 +36,9 @@ body{
 .padded3b {
   padding-bottom: 3rem;
 }
+.padded6 {
+  padding: 6rem;
+}
 
 /* ----- TYPOGRAPHY ----- */
 
@@ -67,7 +70,8 @@ h4 {
   font-size: 3rem;
 }
 h5 {
-
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
 }
 h6 {
   font-size: 2.5rem;
@@ -122,7 +126,17 @@ nav {
   height: 120vh;
 }
 
-/* ----- UNIVERSAL STYLES ---- */
+/* ----- PORTFOLIO PREVIEW STYLES ----- */
+.page-preview {
+  background-size: cover;
+  background-position: center;
+  width: 30vw;
+  min-height: 70vh;
+}
+.page-preview p,
+.page-preview h5 {
+  color: white;
+}
 
 /* ----- FOOTER STYLES ---- */
 
