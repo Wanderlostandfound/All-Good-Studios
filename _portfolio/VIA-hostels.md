@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: VIA Hostels
+date: 2018-07-20 20:50:04 +1000
 description: Designing for our youth.
 featured-img: /images/sunflower.jpg
 header-img: /images/bike.jpg

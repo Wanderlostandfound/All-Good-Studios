@@ -13,7 +13,7 @@ vertical-img1: ''
 vertical-img2: ''
 horizontal-img2: ''
 horizontal-img3: ''
-published: false
+published: true
 
 ---
 these are some words and stuff

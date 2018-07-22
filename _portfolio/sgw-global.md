@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: SGW Global
+date: 2018-07-18 20:50:04 +1000
 description: Communication is key.
 featured-img: /images/jars.jpg
 header-img: /images/bike.jpg

@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: XXIII Capital
+date: 2018-07-19 20:50:04 +1000
 description: Redefining a company.
 featured-img: /images/trees.jpg
 header-img: /images/bike.jpg

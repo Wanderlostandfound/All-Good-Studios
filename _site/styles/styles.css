@@ -105,9 +105,6 @@ a {
 .icon {
   font-size: 5rem;
 }
-nav {
-  padding: 0.5rem 3rem;
-}
 .nav-mini {
   position: absolute;
   padding: 4rem 5rem;
@@ -115,7 +112,14 @@ nav {
 .nav-mini h1 {
   color: white;
 }
-
+.mainMenu {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  padding: 0.5rem 3rem;
+  transition: 0.7s;
+}
 /* ----- HERO STYLES ---- */
 .parallax {
   background-image: url(/images/geo1small.jpg);
@@ -136,6 +140,12 @@ nav {
 .page-preview p,
 .page-preview h5 {
   color: white;
+}
+.gallery {
+  padding: 2rem 6rem;
+}
+.gallery-padding {
+  padding: 0.5rem;
 }
 
 /* ----- FOOTER STYLES ---- */
