@@ -30,11 +30,13 @@ fields:
   type: file
   hidden: false
   default: ''
+  description: Choose a vertical image for best results
 - name: header-img
   label: Header img
   type: file
   hidden: false
   default: ''
+  description: choose a horizontal image for best results
 - name: sector
   label: Sector
   type: list
@@ -48,10 +50,10 @@ fields:
     options:
     - Hospitality
     - Residential
-    - Commerical
     - Office Space
     - Food & Beverage
     - Arts & Culture
+    - Commercial
 - name: created
   label: Created
   type: text
@@ -65,25 +67,30 @@ fields:
   type: file
   hidden: false
   default: ''
+  description: choose a horizontal image for best results
 - name: vertical-img1
   label: Vertical img1
   type: file
   hidden: false
   default: ''
+  description: choose a vertical image for best results
 - name: vertical-img2
   label: Vertical img2
   type: file
   hidden: false
   default: ''
+  description: choose a vertical image for best results
 - name: horizontal-img2
   label: Horizontal img2
   type: file
   hidden: false
   default: ''
+  description: choose a horizontal image for best results
 - name: horizontal-img3
   label: Horizontal img3
   type: file
   hidden: false
   default: ''
+  description: choose a horizontal image for best results
 pages:
 - _portfolio/test.md
