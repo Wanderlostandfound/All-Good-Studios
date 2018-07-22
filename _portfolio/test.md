@@ -16,4 +16,4 @@ horizontal-img3: ''
 published: false
 
 ---
-these are some word and stuff
+these are some words and stuff
