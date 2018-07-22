@@ -15,6 +15,7 @@ fields:
   default: ''
   config:
     required: true
+  description: Name of the project
 - name: description
   label: Description
   type: text
@@ -22,6 +23,8 @@ fields:
   default: ''
   config:
     required: true
+  description: One sentence that is displayed over the featured image on the page
+    preview tiles
 - name: featured-img
   label: Featured img
   type: file
