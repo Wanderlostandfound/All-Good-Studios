@@ -1,23 +1,27 @@
 ---
-label: VIA Hostels
+label: Portfolio Template
 hide_body: false
 is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: portfolio
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: description
   label: Description
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: featured-img
   label: Featured img
   type: file
@@ -33,11 +37,15 @@ fields:
   type: list
   hidden: false
   default: ''
+  description: One word answer to assign a Sector to this project work
 - name: created
   label: Created
   type: text
   hidden: false
   default: ''
+  description: List of values that comes after the text "We helped create:"
+  config:
+    required: true
 - name: horizontal-img1
   label: Horizontal img1
   type: file
