@@ -1,15 +1,20 @@
-<section class="grid gallery">
+<section class="gallery">
 
-{% for item in site.portfolio %}
-
-
-  <div class="col-3_sm-12 page-preview" style="background-image:url('{{item.featured-img}}')">
-    <h5 class="padded1">{{item.title}}</h5>
-    <p class="padded1">{{item.description}}
-    <a href="{{item.url}}">Read more.</a></p>
-  </div>
+  <section class="grid-noGutter">
+    {% for item in site.portfolio %}
 
 
-{% endfor %}
+      <div class="col-3_sm-12">
+        <div class="padded-1">
+          <div class="page-preview" style="background-image:url('{{item.featured-img}}')">
+            <h5 class="padded1">{{item.title}}</h5>
+            <p class="padded1">{{item.description}}
+            <a href="{{item.url}}">Read more.</a></p>
+          </div>
+        </div>
+      </div>
 
+
+    {% endfor %}
+  </section>
 </section>
