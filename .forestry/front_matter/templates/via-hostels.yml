@@ -41,6 +41,17 @@ fields:
   hidden: false
   default: ''
   description: One word answer to assign a Sector to this project work
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - Hospitality
+    - Residential
+    - Commerical
+    - Office Space
+    - Food & Beverage
+    - Arts & Culture
 - name: created
   label: Created
   type: text
