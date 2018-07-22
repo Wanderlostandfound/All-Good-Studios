@@ -85,5 +85,3 @@ fields:
   type: file
   hidden: false
   default: ''
-pages:
-- _portfolio/testing.html
