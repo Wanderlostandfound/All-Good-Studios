@@ -5,15 +5,16 @@ pagetitle: true
 ---
 
 {% include nav.html %}
-<section class="hero">
-  <div class="parallax">
-  </div>
-</section>
+
+{% include hero.html %}
 
 <section class="tile-gallery">
   <section class="grid-noGutter">
+
     {% for item in site.portfolio %}
-      {% include tile-gallery.html %}
+      {% if item.sector == "Hospitality" %}
+        {% include tile-gallery.html %}
+      {% endif %}
     {% endfor %}
   </section>
 </section>

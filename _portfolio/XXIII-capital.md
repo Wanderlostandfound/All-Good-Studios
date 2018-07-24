@@ -5,8 +5,7 @@ date: 2018-07-19 20:50:04 +1000
 description: Redefining a company.
 featured-img: /images/trees.jpg
 header-img: /images/bike.jpg
-sector:
-  - Branding & Graphic
+sector: Branding & Graphic
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

@@ -5,8 +5,7 @@ date: 2018-07-18 20:50:04 +1000
 description: Communication is key.
 featured-img: /images/jars.jpg
 header-img: /images/bike.jpg
-sector:
-  - Office Space
+sector: Office Space
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

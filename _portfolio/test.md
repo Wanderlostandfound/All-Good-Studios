@@ -5,8 +5,7 @@ date: 2018-07-22 20:50:04 +1000
 description: This is a test
 featured-img: "/uploads/IMG_1833.jpg"
 header-img: ''
-sector:
-- Hospitality
+sector: Hospitality
 created: some stuff
 horizontal-img1: ''
 vertical-img1: ''

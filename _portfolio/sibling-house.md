@@ -5,8 +5,7 @@ date: 2018-07-21 20:50:04 +1000
 description: Sharing is caring.
 featured-img: /images/parrot.jpg
 header-img: /images/bike.jpg
-sector:
-  - Residential
+sector: Residential
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg

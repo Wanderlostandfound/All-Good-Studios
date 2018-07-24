@@ -2,6 +2,3 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  hospitality:
-    output: true
-    permalink: /hospitality/:path/
