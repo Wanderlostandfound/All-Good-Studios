@@ -12,7 +12,6 @@ vertical-img1: ''
 vertical-img2: ''
 horizontal-img2: ''
 horizontal-img3: ''
-published: false
 
 ---
 some words about things we did and stuff we created
