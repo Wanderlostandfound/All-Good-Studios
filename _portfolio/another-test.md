@@ -6,7 +6,7 @@ description: Testing more options.
 featured-img: "/uploads/IMG_2367.jpg"
 header-img: "/uploads/IMG_2978.jpg"
 sector:
-- Commercial
+- Hospitality
 created: some more stuff
 horizontal-img1: ''
 vertical-img1: ''
