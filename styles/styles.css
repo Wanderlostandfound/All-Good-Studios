@@ -137,13 +137,28 @@ a {
   transition: 0.7s;
 }
 /* ----- HERO STYLES ---- */
-.parallax {
+.parallax,
+.short-parallax {
   background-image: url(/images/geo1small.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
+}
+.short-parallax {
+  opacity: .7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mini-hero {
+  min-height: 60vh;
+}
+.page-title {
+  font-size: 8rem;
+  color: white;
 }
 
 /* ----- TILE GALLERY STYLES ----- */
