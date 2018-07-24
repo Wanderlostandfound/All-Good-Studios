@@ -48,6 +48,7 @@ fields:
     - Residential
     - Food & Beverage
     - Arts & Culture
+    - Branding & Graphic
     required: true
   label: Sector
   name: sector
