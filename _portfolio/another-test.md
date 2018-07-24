@@ -5,8 +5,7 @@ date: 2018-07-24 23:43:22 +1000
 description: Testing more options.
 featured-img: "/uploads/IMG_2367.jpg"
 header-img: "/uploads/IMG_2978.jpg"
-sector:
-- Hospitality
+sector: Hospitality
 created: some more stuff
 horizontal-img1: ''
 vertical-img1: ''
