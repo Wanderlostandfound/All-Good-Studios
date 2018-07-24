@@ -6,7 +6,7 @@ description: Designing for our youth.
 featured-img: /images/sunflower.jpg
 header-img: /images/bike.jpg
 sector:
-  - Hospitality
+ - Hospitality
 created: Interior, Identity, Art Direction, Print, Lighting, Furniture
 horizontal-img1: /images/iceland.jpg
 vertical-img1: /images/carnations.jpg
