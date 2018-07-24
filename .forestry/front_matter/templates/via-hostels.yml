@@ -37,23 +37,22 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
-- name: sector
-  label: Sector
-  type: list
-  hidden: false
-  default: ''
-  description: One word answer to assign a Sector to this project work
+- type: select
   config:
-    use_select: true
     source:
       type: simple
     options:
     - Hospitality
-    - Residential
+    - Commercial
     - Office Space
+    - Residential
     - Food & Beverage
     - Arts & Culture
-    - Commercial
+    required: true
+  label: Sector
+  name: sector
+  description: Pick a sector from the list
+  default: Hospitality
 - name: created
   label: Created
   type: text
