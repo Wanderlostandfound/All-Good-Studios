@@ -94,3 +94,4 @@ fields:
   description: choose a horizontal image for best results
 pages:
 - _portfolio/another-test.md
+- _portfolio/test.md
