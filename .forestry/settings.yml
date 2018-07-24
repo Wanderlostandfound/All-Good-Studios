@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 collections:
+- path: _hospitality
+  label: Hospitality
+  create: all
 - path: ''
   label: Pages
   create: all
