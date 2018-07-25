@@ -1,7 +1,7 @@
 ---
 title: Test
 layout: portfolio
-sector: Food & Beverage
+sector: Hospitality
 date: 2018-07-24 23:59:01 +1000
 description: This is a test.
 featured-img: "/uploads/IMG_1833.jpg"

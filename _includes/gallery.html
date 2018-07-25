@@ -1,8 +1,7 @@
-<section class="gallery">
-
-  <section class="grid-noGutter">
-    {% for item in site.portfolio %}
-    <div class="col-4_sm-12">
+<section class="grid-noGutter">
+  <div class="col-6_sm-12 grid-noGutter">
+    <div class="col-12">
+    {% for item in site.portfolio limit:1 %}
       <div class="padded1">
         <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
@@ -14,7 +13,54 @@
           </div>
         </div></a>
       </div>
+    {% endfor %}
+    </div>
+    {% for item in site.portfolio offset:1 limit:2 %}
+    <div class="col-6_sm-12">
+      <div class="padded1">
+        <a href="{{item.url}}"><div class="mainpage-previewSmall position-relative background-black">
+          <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
+          </div>
+          <div class="preview-text position-absolute">
+            <h5 class="padded1">{{item.title}}</h5>
+            <p class="padded1">{{item.description}}
+            <span class="underline">Read more.</span></p>
+          </div>
+        </div></a>
+      </div>
     </div>
     {% endfor %}
-  </section>
+  </div>
+  <div class="col-6_sm-12 grid-noGutter">
+    {% for item in site.portfolio offset:3 limit:2 %}
+    <div class="col-6_sm-12">
+      <div class="padded1">
+        <a href="{{item.url}}"><div class="mainpage-previewSmall position-relative background-black">
+          <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
+          </div>
+          <div class="preview-text position-absolute">
+            <h5 class="padded1">{{item.title}}</h5>
+            <p class="padded1">{{item.description}}
+            <span class="underline">Read more.</span></p>
+          </div>
+        </div></a>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12">
+    {% for item in site.portfolio offset:5 limit:1 %}
+      <div class="padded1">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
+          <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
+          </div>
+          <div class="preview-text position-absolute">
+            <h5 class="padded1">{{item.title}}</h5>
+            <p class="padded1">{{item.description}}
+            <span class="underline">Read more.</span></p>
+          </div>
+        </div></a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
 </section>

@@ -157,7 +157,7 @@ a {
   min-height: 60vh;
 }
 .page-title {
-  font-size: 8rem;
+  font-size: 7rem;
   color: white;
   width: 100%;
   text-align: center;
@@ -167,16 +167,18 @@ a {
 /* ----- TILE GALLERY STYLES ----- */
 .page-preview {
   width: auto;
-  min-height: 90vh;
+  min-height: 75vh;
 }
 .page-preview p,
 .page-preview h5,
 .mainpage-preview p,
-.mainpage-preview h5 {
+.mainpage-preview h5,
+.mainpage-previewSmall p,
+.mainpage-previewSmall h5 {
   color: white;
 }
 .tile-gallery {
-  padding: 1rem 6rem;
+  padding: 3rem 6rem;
 }
 .gallery-padding {
   padding: 0.5rem;
@@ -201,9 +203,12 @@ a {
 }
 .mainpage-preview {
   width: auto;
-  min-height: 90vh;
+  min-height: 100vh;
 }
-
+.mainpage-previewSmall {
+  width: auto;
+  min-height: 50vh;
+}
 
 /* ----- FOOTER STYLES ---- */
 

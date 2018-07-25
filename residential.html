@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio/Hospitality
+title: Portfolio/Residential
 pagetitle: true
 ---
 
@@ -12,7 +12,7 @@ pagetitle: true
   <section class="grid-noGutter">
 
     {% for item in site.portfolio %}
-      {% if item.sector == "Hospitality" %}
+      {% if item.sector == "Residential" %}
         {% include tile-gallery.html %}
       {% endif %}
     {% endfor %}
