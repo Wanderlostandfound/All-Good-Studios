@@ -117,6 +117,22 @@ a {
   background-color: #000;
 }
 
+/* ----- BUTTON STYLES ---- */
+button {
+  background-color: transparent;
+  border: none;
+}
+button:hover {
+  color: rgb(232,162,66);
+  cursor: pointer;
+}
+button:hover h1 {
+  color: rgb(232,162,66);
+}
+button:focus {
+  outline: 0;
+}
+
 /* ----- NAV STYLES ---- */
 .icon {
   font-size: 5rem;
@@ -136,6 +152,27 @@ a {
   padding: 0.5rem 3rem;
   transition: 0.7s;
 }
+.sidebar h6 {
+  font-size: 1.5rem;
+}
+.sidebar {
+  height: 100vh;
+  width: 50vw;
+  background-color: white;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+.close {
+  width: 100%;
+}
+.close p {
+  text-align: right;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+}
+
 /* ----- HERO STYLES ---- */
 .parallax,
 .short-parallax {
