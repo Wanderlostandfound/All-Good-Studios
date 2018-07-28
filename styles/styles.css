@@ -198,7 +198,7 @@ button:focus {
   height: 100%;
 }
 .mini-hero {
-  min-height: 60vh;
+  height: 60vh;
 }
 .page-title {
   font-size: 7rem;
@@ -338,6 +338,9 @@ button:focus {
   h6 {
     font-size: 2rem;
   }
+  .sidebar {
+    width: 75vw;
+  }
   .page-title {
     font-size: 3.5rem;
     bottom: 7.5rem;
@@ -427,12 +430,26 @@ button:focus {
   h1 {
     font-size: 2rem;
   }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
   h6 {
     font-size: 1.4rem;
   }
+  .sector p,
+  .create p {
+    font-size: 1rem;
+  }
+  .sector,
+  .create {
+    padding: 0.5rem 1rem;
+  }
   .page-title {
-    font-size: 3.5rem;
-    bottom: 0.5rem;
+    font-size: 2rem;
+    bottom: 2rem;
   }
   .icon {
     font-size: 2.75rem;
@@ -448,7 +465,7 @@ button:focus {
     text-align: center;
   }
   .padded-1 {
-    padding: 0.5rem 0;
+    padding: 0;
   }
   .padded1 {
     padding: 0.5rem 0;
@@ -460,6 +477,10 @@ button:focus {
   }
   .sidebar {
     width: 100vw;
+    padding: 1rem;
+  }
+  .mobilepad {
+    padding: 0.5rem;
   }
   .parallax {
     display: none;
@@ -470,6 +491,12 @@ button:focus {
   .mainpage-previewSmall {
     height: 100vh;
   }
+  .tile-gallery {
+    padding: 0.5rem 0;
+  }
+  .gallery-padding {
+    padding: 0.5rem 0;
+  }
   .page-preview p,
   .page-preview h5,
   .mainpage-preview p,
@@ -479,6 +506,27 @@ button:focus {
   .portfolio-gallery p,
   .portfolio-gallery h5 {
     padding: 0rem 1rem 1rem 1rem;
+  }
+  .nav-mini {
+    padding: 1rem;
+  }
+  .header-img {
+    height: 40vh;
+  }
+  .page-desc {
+    padding: 1rem;
+  }
+  .portfolio-text {
+    padding: 0.5rem;
+  }
+  .portfolio-imgv {
+    height: 90vh;
+  }
+  .portfolio-imgh {
+    height: 70vh;
+  }
+  .portfolio-img {
+    padding: 0.5rem 0;
   }
 
 }

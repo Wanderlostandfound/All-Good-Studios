@@ -7,13 +7,12 @@ pagetitle: true
 {% include nav.html %}
 
 {% include mini-hero.html %}
-
-<section class="grid-noGutter padded3">
-  <div class="col-6_sm-12 grid-noGutter">
+<section class="grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     <div class="col-12">
     {% for item in site.portfolio limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -41,7 +40,7 @@ pagetitle: true
     </div>
     {% endfor %}
   </div>
-  <div class="col-6_sm-12 grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     {% for item in site.portfolio offset:3 limit:2 %}
     <div class="col-6_sm-12">
       <div class="padded1">
@@ -60,7 +59,7 @@ pagetitle: true
     <div class="col-12">
     {% for item in site.portfolio offset:5 limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -73,11 +72,11 @@ pagetitle: true
     {% endfor %}
     </div>
   </div>
-  <div class="col-6_sm-12 grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     <div class="col-12">
     {% for item in site.portfolio offset:6 limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -105,7 +104,7 @@ pagetitle: true
     </div>
     {% endfor %}
   </div>
-  <div class="col-6_sm-12 grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     {% for item in site.portfolio offset:9 limit:2 %}
     <div class="col-6_sm-12">
       <div class="padded1">
@@ -124,7 +123,7 @@ pagetitle: true
     <div class="col-12">
     {% for item in site.portfolio offset:11 limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -137,11 +136,11 @@ pagetitle: true
     {% endfor %}
     </div>
   </div>
-  <div class="col-6_sm-12 grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     <div class="col-12">
     {% for item in site.portfolio offset:12 limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -169,7 +168,7 @@ pagetitle: true
     </div>
     {% endfor %}
   </div>
-  <div class="col-6_sm-12 grid-noGutter">
+  <div class="col-6_xs-12 grid-noGutter">
     {% for item in site.portfolio offset:15 limit:2 %}
     <div class="col-6_sm-12">
       <div class="padded1">
@@ -188,7 +187,7 @@ pagetitle: true
     <div class="col-12">
     {% for item in site.portfolio offset:17 limit:1 %}
       <div class="padded1">
-        <a href="{{item.url}}"><div class="portfolio-gallery position-relative background-black">
+        <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('{{item.featured-img}}')">
           </div>
           <div class="preview-text position-absolute">
@@ -201,8 +200,10 @@ pagetitle: true
     {% endfor %}
     </div>
   </div>
+  </section>
 
-</section>
+
+
 
 <div class="padded3">
   <section class="portfolio-footer">
