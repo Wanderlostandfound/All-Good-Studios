@@ -421,5 +421,64 @@ button:focus {
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-  
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 1.4rem;
+  }
+  .page-title {
+    font-size: 3.5rem;
+    bottom: 0.5rem;
+  }
+  .icon {
+    font-size: 2.75rem;
+  }
+  .footer-text {
+    font-size: 0.9rem;
+  }
+  .copyright {
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+  .right {
+    text-align: center;
+  }
+  .padded-1 {
+    padding: 0.5rem 0;
+  }
+  .padded1 {
+    padding: 0.5rem 0;
+  }
+  .padded2b,
+  .padded2tb,
+  .padded3 {
+    padding: 0;
+  }
+  .sidebar {
+    width: 100vw;
+  }
+  .parallax {
+    display: none;
+  }
+  .mini-hero {
+    height: 30vh;
+  }
+  .mainpage-previewSmall {
+    height: 100vh;
+  }
+  .page-preview p,
+  .page-preview h5,
+  .mainpage-preview p,
+  .mainpage-preview h5,
+  .mainpage-previewSmall p,
+  .mainpage-previewSmall h5,
+  .portfolio-gallery p,
+  .portfolio-gallery h5 {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
 }
