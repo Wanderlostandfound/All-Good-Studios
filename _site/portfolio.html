@@ -12,11 +12,12 @@
 
   <body>
 
-    <div class="col">
+    <div class="">
       <header class="grid-middle-center-noGutter-spaceBetween mainMenu">
   <h1 class="col-1-middle-center icon"><a href="/"><i class="fas fa-cubes"></i></a></h1>
-  <div class="col-11"><div class="sidebar" id="sidebar" style="display:none">
-  <button onclick="sidebar_close()" class="close"><p>X</p></button>
+  <div class="col-11_sm-10">
+    <div class="sidebar animate-right" id="sidebar" style="display:none">
+  <button class="close"><p>X</p></button>
   <div class="padded-1">
     <h6 class="padded-1">Services -</h6>
     <div class="padded-1">
@@ -38,7 +39,9 @@
   </div>
 </div>
 
-    <button onclick="sidebar_open()"><h1>All Good Studios</h1></button>
+    <button>
+      <h1>All Good Studios</h1>
+    </button>
   </div>
 </header>
 
@@ -63,7 +66,7 @@
     <div class="col-12">
     
       <div class="padded1">
-        <a href="/portfolio/ustwo-games/"><div class="mainpage-preview position-relative background-black">
+        <a href="/portfolio/ustwo-games/"><div class="portfolio-gallery position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('/images/geo2small.jpg')">
           </div>
           <div class="preview-text position-absolute">
@@ -138,7 +141,7 @@
     <div class="col-12">
     
       <div class="padded1">
-        <a href="/portfolio/grandview/"><div class="mainpage-preview position-relative background-black">
+        <a href="/portfolio/grandview/"><div class="portfolio-gallery position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('/images/carnations.jpg')">
           </div>
           <div class="preview-text position-absolute">
@@ -155,7 +158,7 @@
     <div class="col-12">
     
       <div class="padded1">
-        <a href="/portfolio/another-test/"><div class="mainpage-preview position-relative background-black">
+        <a href="/portfolio/another-test/"><div class="portfolio-gallery position-relative background-black">
           <div class="bg-img position-absolute" style="background-image:url('/uploads/IMG_2367.jpg')">
           </div>
           <div class="preview-text position-absolute">
@@ -214,8 +217,8 @@
     <div class="col-8_sm-12 grid">
       <div class="col-4_sm-12 lineheight">
         <p class="grey">Contact</p>
-        <a href="tel:0432809356">+61 432 809 356</a>
-        <a href="mailto:hello@allgoodstudios.com.au">hello@allgoodstudios.com.au</a>
+        <p><a href="tel:0432809356">+61 432 809 356</a></p>
+        <p><a href="mailto:hello@allgoodstudios.com.au">hello@allgoodstudios.com.au</a></p>
       </div>
       <div class="col-4_sm-12 lineheight">
         <p class="grey">Connect</p>
@@ -255,14 +258,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
     <script src="/js/navappear.js"></script>
-    <script>
-      function sidebar_open() {
-          document.getElementById("sidebar").style.display = "block";
-      }
-      function sidebar_close() {
-          document.getElementById("sidebar").style.display = "none";
-      }
-    </script>
-
+    <script src="/js/sidebarOpen.js"></script>
   </body>
 </html>

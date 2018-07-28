@@ -116,7 +116,6 @@ a {
 .background-black {
   background-color: #000;
 }
-
 /* ----- BUTTON STYLES ---- */
 button {
   background-color: transparent;
@@ -172,7 +171,15 @@ button:focus {
   font-size: 1.5rem;
   padding: 1rem 3rem;
 }
-
+.animate-right {
+  position: absolute;
+  right: 0;
+  animation: animateright 0.6s
+}
+@keyframes animateright {
+  from{right:-300px;opacity:0}
+  to{right:0;opacity:1}
+}
 /* ----- HERO STYLES ---- */
 .parallax,
 .short-parallax {
@@ -211,7 +218,9 @@ button:focus {
 .mainpage-preview p,
 .mainpage-preview h5,
 .mainpage-previewSmall p,
-.mainpage-previewSmall h5 {
+.mainpage-previewSmall h5,
+.portfolio-gallery p,
+.portfolio-gallery h5 {
   color: white;
 }
 .tile-gallery {
@@ -235,9 +244,7 @@ button:focus {
 }
 
 /* ----- MAIN GALLERY STYLES ----- */
-.gallery {
-  padding: 2rem;
-}
+
 .mainpage-preview {
   width: auto;
   min-height: 100vh;
@@ -301,13 +308,118 @@ button:focus {
 
 /* ----- MEDIA QUERIES ---- */
 /* Tablet */
+@media screen and (min-width: 1023px) {
+  .tablet {
+    display: none;
+  }
+}
 @media screen and (max-width: 1023px) {
   .parallax {
     background-attachment: scroll;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 3.2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 2rem;
+  }
+  .page-title {
+    font-size: 3.5rem;
+    bottom: 7.5rem;
+  }
+  .sector p,
+  .create p {
+    font-size: 1.1rem;
+  }
+  .sector {
+    padding: 0 0 1rem 0;
+  }
+  .padded3 {
+    padding: 0.5rem;
+  }
+  .padded2 {
+    padding: 0.5rem;
+  }
+  .padded2tb {
+    padding: 0.5rem;
+  }
+  .padded1 {
+    padding: 0.5rem;
+  }
+  .mainMenu {
+    padding: 0.5rem;
+  }
+  .spacer {
+    display: none;
+  }
+  .parallax {
+    height: 75vh;
+  }
+  .tile-gallery {
+    padding: 0.5rem;
+  }
+  .gallery {
+    padding: 0.5rem;
+  }
+  .mainpage-previewSmall {
+    height: 75vh;
+  }
+  .portfolio-gallery {
+    height: 75vh;
+  }
+  .page-preview p,
+  .page-preview h5,
+  .mainpage-preview p,
+  .mainpage-preview h5,
+  .mainpage-previewSmall p,
+  .mainpage-previewSmall h5,
+  .portfolio-gallery p,
+  .portfolio-gallery h5 {
+    padding: 1rem;
+  }
+  .page-desc {
+    padding: 2rem 0 0 0;
+    text-align: left;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+  .nav-mini {
+    padding: 2rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .portfolio-imgv {
+    height: 90vh;
+  }
+  .portfolio-imgh {
+    height: 70vh;
+  }
+  .header-img {
+    height: 70vh;
+  }
+  footer {
+    padding: 0.5rem 1rem;
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-
+  
 }
