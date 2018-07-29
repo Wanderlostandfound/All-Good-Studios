@@ -520,13 +520,19 @@ button:focus {
     padding: 0.5rem;
   }
   .portfolio-imgv {
-    height: 90vh;
+    height: 40vh;
   }
   .portfolio-imgh {
-    height: 70vh;
+    height: 35vh;
   }
   .portfolio-img {
     padding: 0.5rem 0;
+  }
+  .vert1 {
+    padding-right: 0.5rem;
+  }
+  .vert2 {
+    padding-left: 0.5rem;
   }
 
 }
