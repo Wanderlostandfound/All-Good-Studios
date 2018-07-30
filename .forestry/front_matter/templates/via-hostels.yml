@@ -72,6 +72,8 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
+  config:
+    maxSize: '3'
 - name: horizontal-img2
   label: Horizontal img2
   type: file
