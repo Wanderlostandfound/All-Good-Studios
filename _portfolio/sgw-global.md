@@ -12,7 +12,6 @@ horizontal-img2: "/uploads/SGW 3.jpg"
 vertical-img1: "/uploads/SGW 4.jpg"
 vertical-img2: "/uploads/SGW 5.jpg"
 horizontal-img3: "/uploads/SGW 7.jpg"
-published: false
 
 ---
 Global communications companies are usually located in anonymous and bland facilities. [SGW](http://www.sgwglobal.com/) have a London base that is more cool studio than mundane office.<br><br>
