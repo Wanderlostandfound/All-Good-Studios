@@ -12,7 +12,6 @@ horizontal-img2: "/uploads/Capital 6.jpg"
 vertical-img1: "/uploads/Capital 3.jpg"
 vertical-img2: "/uploads/Capital 1.jpg"
 horizontal-img3: "/uploads/Capital 5.jpg"
-published: false
 
 ---
 When the founders of [XXIII Capital](http://www.xxiiicap.com/) approached us they had a particular image to present in their 1500sq ft of newly refurbished office space in W1.<br><br>
