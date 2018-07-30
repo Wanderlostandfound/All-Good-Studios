@@ -12,6 +12,5 @@ horizontal-img2: "/uploads/grandview 6.jpg"
 vertical-img1: "/uploads/grandview 3.jpg"
 vertical-img2: "/uploads/grandview 4.jpg"
 horizontal-img3: "/uploads/grandview 6.jpg"
-published: false
 
 ---
