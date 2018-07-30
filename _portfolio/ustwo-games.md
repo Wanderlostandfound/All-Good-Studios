@@ -3,7 +3,7 @@ title: Ustwo Games
 layout: portfolio
 sector: Office Space
 date: 2018-07-30 18:04:53 +1000
-description: An adaptable team environment.
+description: Breathing new life into an old dame.
 featured-img: "/uploads/Ustwo 4.jpg"
 header-img: "/uploads/Ustwo 2.jpg"
 created: Interior, Lighting, Furniture
