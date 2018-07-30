@@ -12,7 +12,6 @@ horizontal-img2: "/uploads/Via 4.jpg"
 vertical-img1: "/uploads/Via 6.jpg"
 vertical-img2: "/uploads/Via 1.jpg"
 horizontal-img3: "/uploads/Via 3.jpg"
-published: false
 
 ---
 VIA is an entirely new brand concept in the young travel sector. Energy and attitude are a part of the identity. It is design that needs, more than ever, to be durable. Jackdaw Studio were collaboratively involved from the concept stage.<br><br>
