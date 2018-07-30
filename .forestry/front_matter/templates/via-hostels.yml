@@ -96,6 +96,8 @@ fields:
   hidden: false
   default: ''
   description: choose a vertical image for best results
+  config:
+    maxSize: '3'
 - name: horizontal-img3
   label: Horizontal img3
   type: file
