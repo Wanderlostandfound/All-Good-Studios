@@ -4,14 +4,14 @@ layout: portfolio
 sector: Office Space
 date: 2018-07-30 18:04:53 +1000
 description: An adaptable team environment.
-featured-img: ''
-header-img: ''
+featured-img: "/uploads/Ustwo 4.jpg"
+header-img: "/uploads/Ustwo 2.jpg"
 created: Interior, Lighting, Furniture
-horizontal-img1: ''
-vertical-img1: ''
-vertical-img2: ''
-horizontal-img2: ''
-horizontal-img3: ''
+horizontal-img1: "/uploads/Ustwo 3.jpg"
+vertical-img1: "/uploads/Ustwo 4.jpg"
+vertical-img2: "/uploads/Ustwo 6.jpg"
+horizontal-img2: "/uploads/Ustwo 1.jpg"
+horizontal-img3: "/uploads/Ustwo 5.jpg"
 published: false
 
 ---
