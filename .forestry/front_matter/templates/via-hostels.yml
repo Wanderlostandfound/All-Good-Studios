@@ -31,6 +31,8 @@ fields:
   hidden: false
   default: ''
   description: Choose a vertical image for best results
+  config:
+    maxSize: '3'
 - name: header-img
   label: Header img
   type: file
