@@ -1,21 +1,22 @@
 ---
-title: SGW Global
 layout: portfolio
-sector: Office Space
-date: 2018-07-30 22:15:40 +1000
+title: SGW Global
+date: 2018-07-18 10:50:04 +0000
 description: Communication is key.
-featured-img: "/uploads/SGW 5.jpg"
-header-img: "/uploads/SGW 6.jpg"
-created: Architecture, Interior, Furniture, Lighting
-horizontal-img1: "/uploads/SGW 2.jpg"
-vertical-img1: "/uploads/SGW 4.jpg"
-vertical-img2: "/uploads/SGW 5.jpg"
-horizontal-img2: "/uploads/SGW 3.jpg"
-horizontal-img3: "/uploads/SGW 7.jpg"
+featured-img: "/images/jars.jpg"
+header-img: "/images/bike.jpg"
+sector: Office Space
+created: Interior, Identity, Art Direction, Print, Lighting, Furniture
+horizontal-img1: "/images/iceland.jpg"
+vertical-img1: "/images/carnations.jpg"
+vertical-img2: "/images/polaroid.jpg"
+horizontal-img2: "/images/elk.jpg"
+horizontal-img3: "/images/wanderlust.jpg"
+published: false
 
 ---
-Global communications companies are usually located in anonymous and bland facilities. [SGW](http://www.sgwglobal.com/) have a London base that is more cool studio than mundane office.<br><br>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br>
 
-A concise 10 week programme saw an empty canal side industrial shell transformed into a cool, contemporary, efficient workplace. The informal calm belies the fact that Branch Place is a powerfully connected technological hub. This duality is something we pursue in our work.<br><br>
-
-A concise programme and stringent budget necessitated Jackdaw Studios implementing a Design and Build contract. This enabled very precise responsive project management. An important factor in achieving a confident, beautifully executed result.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
