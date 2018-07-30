@@ -68,6 +68,12 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
+- name: horizontal-img2
+  label: Horizontal img2
+  type: file
+  hidden: false
+  default: ''
+  description: choose a horizontal image for best results
 - name: vertical-img1
   label: Vertical img1
   type: file
@@ -80,12 +86,6 @@ fields:
   hidden: false
   default: ''
   description: choose a vertical image for best results
-- name: horizontal-img2
-  label: Horizontal img2
-  type: file
-  hidden: false
-  default: ''
-  description: choose a horizontal image for best results
 - name: horizontal-img3
   label: Horizontal img3
   type: file
