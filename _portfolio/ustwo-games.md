@@ -15,10 +15,10 @@ horizontal-img3: ''
 published: false
 
 ---
-Working with [Ustwo Games](http://ustwogames.co.uk/) on a move from their parent company’s office in Shoreditch, we found a former pickling factory in Oval and persuaded them to relocate. 
+Working with [Ustwo Games](http://ustwogames.co.uk/) on a move from their parent company’s office in Shoreditch, we found a former pickling factory in Oval and persuaded them to relocate. <br><br>
 
-In close collaboration with the team we designed an adaptable environment that would meet their needs. Employees work very collaboratively so an open plan studio would be the obvious solution, however, while open plan is great for teamwork and collaboration, it is less good for concentration and contemplation.
+In close collaboration with the team we designed an adaptable environment that would meet their needs. Employees work very collaboratively so an open plan studio would be the obvious solution, however, while open plan is great for teamwork and collaboration, it is less good for concentration and contemplation. <br><br>
 
-With this in mind we designed a variety of settings and allowed the employee to choose the one most appropriate to the task in hand.
+With this in mind we designed a variety of settings and allowed the employee to choose the one most appropriate to the task in hand. <br><br>
 
 One half of the studio focuses on working and productivity, the other half is given over to acts of collaboration, chance encounters and recreation. Both zones are supported by a workshop space, a gaming area, communal eating space and a retractable meeting room. These areas can be recombined into one large space allowing Ustwo to host larger gatherings.
