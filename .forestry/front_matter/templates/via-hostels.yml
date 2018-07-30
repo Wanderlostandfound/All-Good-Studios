@@ -88,6 +88,8 @@ fields:
   hidden: false
   default: ''
   description: choose a vertical image for best results
+  config:
+    maxSize: '3'
 - name: vertical-img2
   label: Vertical img2
   type: file
