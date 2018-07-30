@@ -93,5 +93,6 @@ fields:
   default: ''
   description: choose a horizontal image for best results
 pages:
+- _portfolio/xxiii-capital.md
 - _portfolio/sgw-global.md
 - _portfolio/ustwo-games.md
