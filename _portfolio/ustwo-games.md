@@ -12,7 +12,6 @@ vertical-img1: "/uploads/Ustwo 4.jpg"
 vertical-img2: "/uploads/Ustwo 6.jpg"
 horizontal-img2: "/uploads/Ustwo 1.jpg"
 horizontal-img3: "/uploads/Ustwo 5.jpg"
-published: false
 
 ---
 Working with [Ustwo Games](http://ustwogames.co.uk/) on a move from their parent company’s office in Shoreditch, we found a former pickling factory in Oval and persuaded them to relocate. <br><br>
