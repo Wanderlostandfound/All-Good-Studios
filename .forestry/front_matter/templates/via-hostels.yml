@@ -80,6 +80,8 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
+  config:
+    maxSize: '3'
 - name: vertical-img1
   label: Vertical img1
   type: file
