@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio/Branding & Graphic
+title: Portfolio/Office Space
 pagetitle: true
 ---
 
@@ -12,7 +12,7 @@ pagetitle: true
   <section class="grid-noGutter">
 
     {% for item in site.portfolio %}
-      {% if item.sector == "Branding & Graphic" %}
+      {% if item.sector == "Office Space" %}
         {% include tile-gallery.html %}
       {% endif %}
     {% endfor %}
