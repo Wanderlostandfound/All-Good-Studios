@@ -104,6 +104,8 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
+  config:
+    maxSize: '3'
 pages:
 - _portfolio/via-hostels.md
 - _portfolio/sgw-global.md
