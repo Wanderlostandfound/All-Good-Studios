@@ -39,6 +39,8 @@ fields:
   hidden: false
   default: ''
   description: choose a horizontal image for best results
+  config:
+    maxSize: '3'
 - type: select
   config:
     source:
