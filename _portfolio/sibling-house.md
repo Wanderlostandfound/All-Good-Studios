@@ -12,6 +12,5 @@ horizontal-img2: "/uploads/Sibling 6.jpg"
 vertical-img1: "/uploads/Sibling 2.jpg"
 vertical-img2: "/uploads/Sibling 3.jpg"
 horizontal-img3: "/uploads/Sibling 5.jpg"
-published: false
 
 ---
