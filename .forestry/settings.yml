@@ -1,15 +1,15 @@
 ---
 new_page_extension: md
 auto_deploy: true
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
   create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
+# - type: jekyll-posts
+#   label: Posts
+#   create: none
 - type: directory
   path: _portfolio
   label: Portfolio
