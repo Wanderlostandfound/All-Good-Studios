@@ -491,6 +491,9 @@ button:focus {
   .mainpage-previewSmall {
     height: 80vh;
   }
+  .mainpage-preview {
+    height: 80vh;
+  }
   .tile-gallery {
     padding: 0.5rem 0;
   }
