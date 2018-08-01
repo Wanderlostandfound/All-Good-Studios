@@ -5,7 +5,7 @@ admin_path:
 webhook_url:
 sections:
 - type: jekyll-pages
-  label: Pages
+  label: Pages - DO NOT EDIT
   create: all
 # - type: jekyll-posts
 #   label: Posts
