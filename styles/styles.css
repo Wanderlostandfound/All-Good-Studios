@@ -338,6 +338,9 @@ button:focus {
   h6 {
     font-size: 2rem;
   }
+  .preview-text p {
+    font-size: 1.4rem;
+  }
   .sidebar {
     width: 75vw;
   }
