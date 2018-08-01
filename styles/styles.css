@@ -489,10 +489,10 @@ button:focus {
     height: 30vh;
   }
   .mainpage-previewSmall {
-    height: 80vh;
+    min-height: 80vh;
   }
   .mainpage-preview {
-    height: 80vh;
+    min-height: 80vh;
   }
   .tile-gallery {
     padding: 0.5rem 0;
