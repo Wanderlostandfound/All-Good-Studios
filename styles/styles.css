@@ -188,7 +188,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 90vh;
 }
 .short-parallax {
   opacity: .7;
@@ -489,7 +489,7 @@ button:focus {
     height: 30vh;
   }
   .mainpage-previewSmall {
-    height: 100vh;
+    height: 90vh;
   }
   .tile-gallery {
     padding: 0.5rem 0;
