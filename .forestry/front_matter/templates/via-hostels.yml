@@ -48,11 +48,8 @@ fields:
     options:
     - Hospitality
     - Commercial
-    - Office Space
     - Residential
-    - Food & Beverage
-    - Arts & Culture
-    - Branding & Graphic
+    - Retail
     required: true
   label: Sector
   name: sector
