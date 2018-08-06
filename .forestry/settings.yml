@@ -1,11 +1,11 @@
 ---
 new_page_extension: md
 auto_deploy: true
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: jekyll-pages
-  label: Pages - DO NOT EDIT
+  label: DO NOT EDIT - Pages
   create: all
 - type: directory
   path: _portfolio

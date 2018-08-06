@@ -1,0 +1,26 @@
+---
+layout: default
+title: Portfolio/Retail
+pagetitle: true
+---
+
+{% include nav.html %}
+
+{% include mini-hero.html %}
+
+<section class="tile-gallery">
+  <section class="grid-noGutter">
+
+    {% for item in site.portfolio %}
+      {% if item.sector == "Retail" %}
+        {% include tile-gallery.html %}
+      {% endif %}
+    {% endfor %}
+  </section>
+</section>
+
+<div class="padded3">
+  <section class="portfolio-footer">
+    {% include footer.html %}
+  </section>
+</div>

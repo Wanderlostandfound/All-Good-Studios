@@ -1,7 +1,7 @@
 ---
 title: XXIII Capital
 layout: portfolio
-sector: Office Space
+sector: Commercial
 date: 2018-07-30 22:25:43 +1000
 description: 'Redefining a company. '
 featured-img: "/uploads/Capital 4.jpg"

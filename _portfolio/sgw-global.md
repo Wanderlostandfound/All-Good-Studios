@@ -1,7 +1,7 @@
 ---
 title: SGW Global
 layout: portfolio
-sector: Office Space
+sector: Commercial
 date: 2018-07-30 22:56:28 +1000
 description: Communication is key.
 featured-img: "/uploads/SGW 5.jpg"

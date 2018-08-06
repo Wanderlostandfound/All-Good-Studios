@@ -1,7 +1,7 @@
 ---
 title: Ustwo Games
 layout: portfolio
-sector: Office Space
+sector: Commercial
 date: 2018-07-30 18:04:53 +1000
 description: Breathing new life into an old dame.
 featured-img: "/uploads/Ustwo 4.jpg"
