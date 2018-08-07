@@ -69,28 +69,27 @@ body {
   text-decoration: none;
   font-size: 1rem;
 }
-
+/* icon logo */
 h1 {
   color: white;
   text-decoration: none;
   font-size: 4rem;
 }
-h2,
-h4 {
+h2 {
   font-size: 3.5rem;
-  text-align: center;
-  color: #576574;
+  font-family: 'Open Sans', sans-serif;
 }
 h3 {
   font-size: 3.2rem;
 }
 h4 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  color: #576574;
 }
 h5 {
-
   font-size: 1rem;
 }
+/* font logo */
 h6 {
   font-size: 6.5rem;
   font-family: 'badriyah_tworegular';
@@ -107,6 +106,9 @@ a {
   font-size: 0.8rem;
   position: relative;
   top: -25px;
+}
+.upcoming {
+  font-size: 10rem;
 }
 /* ----- HELPERS ---- */
 .spacer {
@@ -320,18 +322,6 @@ button:focus {
   background-position: center;
   background-size: cover;
 }
-.sector p,
-.create p {
-  font-size: 1.2rem;
-
-  padding: 0.25rem;
-}
-.sector {
-  padding-top: 2rem;
-}
-.portfolio-text {
-  padding: 1rem 0;
-}
 .portfolio-imgv {
   height: 120vh;
   background-position: center;
@@ -343,14 +333,11 @@ button:focus {
   background-position: center;
   background-size: cover;
 }
+.main-text {
+  font-size: 1.2rem;
+}
 
 /* ----- MEDIA QUERIES ---- */
-/* Tablet */
-@media screen and (min-width: 1023px) {
-  .tablet {
-    display: none;
-  }
-}
 @media screen and (max-width: 1023px) {
   .parallax {
     background-attachment: scroll;
@@ -437,9 +424,6 @@ button:focus {
   }
   .nav-mini {
     padding: 2rem;
-  }
-  .desktop {
-    display: none;
   }
   .portfolio-imgv {
     height: 90vh;
