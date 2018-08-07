@@ -67,12 +67,11 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: inherit;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-h1,
-h6 {
-  color: black;
+h1 {
+  color: white;
   text-decoration: none;
   font-size: 4rem;
 }
@@ -111,7 +110,7 @@ a {
 }
 /* ----- HELPERS ---- */
 .spacer {
-  min-height: 10vh;
+  min-height: 9vh;
 }
 .grey {
   color: #576574;
@@ -163,6 +162,7 @@ button:focus {
 }
 .icon {
   font-size: 5rem;
+  padding: 1rem 2rem;
 }
 .nav-mini {
   position: absolute;
@@ -174,10 +174,8 @@ button:focus {
 .mainMenu {
   position: fixed;
   z-index: 2;
-  background-color: white;
+  background-color: transparent;
   width: 100%;
-  padding: 0.5rem 3rem;
-  transition: 0.7s;
 }
 .sidebar h6 {
   font-size: 1.5rem;
@@ -191,13 +189,16 @@ button:focus {
   right: 0;
   z-index: 3;
 }
+.sidebar i {
+  font-size: 2rem;
+}
 .close {
   width: 100%;
 }
 .close p {
   text-align: right;
   font-size: 1.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem 0 1rem;
 }
 .animate-right {
   position: absolute;
@@ -245,8 +246,6 @@ button:focus {
 .page-preview h5,
 .mainpage-preview p,
 .mainpage-preview h5,
-.mainpage-previewSmall p,
-.mainpage-previewSmall h5,
 .portfolio-gallery p,
 .portfolio-gallery h5 {
   color: white;
@@ -277,9 +276,20 @@ button:focus {
   width: auto;
   min-height: 100vh;
 }
-.mainpage-previewSmall {
-  width: auto;
-  min-height: 50vh;
+.gallery-title {
+  padding: 0 0 2rem 2rem;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+.gallery-desc {
+  padding: 0 0 0 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+}
+.read-more {
+  padding: 0 0 3rem 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
 }
 
 /* ----- FOOTER STYLES ---- */
@@ -407,12 +417,6 @@ button:focus {
   .tile-gallery {
     padding: 0.5rem;
   }
-  .gallery {
-    padding: 0.5rem;
-  }
-  .mainpage-previewSmall {
-    height: 75vh;
-  }
   .portfolio-gallery {
     height: 75vh;
   }
@@ -420,8 +424,6 @@ button:focus {
   .page-preview h5,
   .mainpage-preview p,
   .mainpage-preview h5,
-  .mainpage-previewSmall p,
-  .mainpage-previewSmall h5,
   .portfolio-gallery p,
   .portfolio-gallery h5 {
     padding: 1rem;
@@ -519,12 +521,6 @@ button:focus {
   .mini-hero {
     height: 30vh;
   }
-  .mainpage-previewSmall {
-    min-height: 80vh;
-  }
-  .mainpage-preview {
-    min-height: 80vh;
-  }
   .tile-gallery {
     padding: 0.5rem 0;
   }
@@ -535,8 +531,6 @@ button:focus {
   .page-preview h5,
   .mainpage-preview p,
   .mainpage-preview h5,
-  .mainpage-previewSmall p,
-  .mainpage-previewSmall h5,
   .portfolio-gallery p,
   .portfolio-gallery h5 {
     padding: 0rem 1rem 1rem 1rem;
