@@ -166,18 +166,18 @@ button:focus {
   font-size: 5rem;
   padding: 1rem 2rem;
 }
-.nav-mini {
-  position: absolute;
-  padding: 4rem 5rem;
+.icon-padding {
+  padding: 4.5rem 4.25rem;
 }
-.nav-mini h1 {
-  color: white;
-}
-.mainMenu {
+.mainMenu,
+.project-nav {
   position: fixed;
   z-index: 2;
   background-color: transparent;
   width: 100%;
+}
+.project-nav {
+  position: absolute;
 }
 .sidebar h6 {
   font-size: 1.5rem;
@@ -422,7 +422,7 @@ button:focus {
   .icon {
     font-size: 4rem;
   }
-  .nav-mini {
+  .project-nav {
     padding: 2rem;
   }
   .portfolio-imgv {
@@ -519,7 +519,7 @@ button:focus {
   .portfolio-gallery h5 {
     padding: 0rem 1rem 1rem 1rem;
   }
-  .nav-mini {
+  .project-nav {
     padding: 1rem;
   }
   .header-img {
