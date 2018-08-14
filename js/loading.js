@@ -6,7 +6,7 @@ function loaded () {
   // Hide the loading div
   setTimeout(function(){
     $('#loading').hide();
-  }, 3000);
+  }, 2000);
 }
 
 $(window).on('load', loaded);

@@ -144,6 +144,21 @@ a {
 }
 /* ----- LOADING SCREEN STYLES ---- */
 
+#loading {
+  position: fixed;
+  background-image:  url("../images/loading.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 3s linear;
+}
+body.loaded #loading {
+  opacity: 0;
+}
 /* ----- BUTTON STYLES ---- */
 button {
   background-color: transparent;
