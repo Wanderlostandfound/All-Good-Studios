@@ -112,7 +112,7 @@ a {
 }
 /* ----- HELPERS ---- */
 .spacer {
-  min-height: 9vh;
+  min-height: 5vh;
 }
 .grey {
   color: #576574;
@@ -146,7 +146,7 @@ a {
 
 #loading {
   position: fixed;
-  background-image:  url("../images/loading.jpg");
+  background-image:  url("../images/loading1.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -154,7 +154,7 @@ a {
   top: 0;
   left: 0;
   z-index: 9999;
-  transition: opacity 3s linear;
+  transition: opacity 5s linear;
 }
 body.loaded #loading {
   opacity: 0;
@@ -197,7 +197,7 @@ button:focus {
   position: absolute;
 }
 .sidebar h6 {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .sidebar {
   height: 100vh;
@@ -227,6 +227,9 @@ button:focus {
 @keyframes animateright {
   from{right:-300px;opacity:0}
   to{right:0;opacity:1}
+}
+.text-logo {
+  width: 35%;
 }
 /* ----- HERO STYLES ---- */
 .parallax,
