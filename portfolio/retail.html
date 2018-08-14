@@ -8,15 +8,14 @@ pagetitle: true
 
 {% include mini-hero.html %}
 
-<section class="tile-gallery">
-  <section class="grid-noGutter">
+<section class="">
 
     {% for item in site.portfolio %}
       {% if item.sector == "Retail" %}
         {% include tile-gallery.html %}
       {% endif %}
     {% endfor %}
-  </section>
+
 </section>
 
 <div class="padded3">
