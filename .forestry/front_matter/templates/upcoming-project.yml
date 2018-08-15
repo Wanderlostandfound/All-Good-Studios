@@ -47,3 +47,9 @@ fields:
   description: List of values that comes after the text "We are creating:"
   config:
     required: true
+- type: file
+  name: horizontal-img1
+  label: Horizontal img1
+  description: choose a horizontal image for best results. 3MB maximum
+  config:
+    maxSize: '3'
