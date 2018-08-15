@@ -475,7 +475,7 @@ button:focus {
 /* Mobile */
 @media screen and (max-width: 767px) {
   body {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   h1 {
     font-size: 2rem;
@@ -503,16 +503,17 @@ button:focus {
   }
   .icon {
     font-size: 2.75rem;
+    padding: 1rem;
+  }
+  .close p {
+    font-size: 1.1rem;
   }
   .footer-text {
     font-size: 0.9rem;
   }
   .copyright {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     padding: 1rem;
-  }
-  .right {
-    text-align: center;
   }
   .padded-1 {
     padding: 0;
@@ -527,7 +528,6 @@ button:focus {
   }
   .sidebar {
     width: 100vw;
-    padding: 1rem;
   }
   .mobilepad {
     padding: 0.5rem;
