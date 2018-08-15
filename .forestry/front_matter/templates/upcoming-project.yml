@@ -14,3 +14,9 @@ fields:
     - upcoming
   label: Layout
   description: Choose full Portfolio or Upcoming Project
+- type: text
+  name: title
+  label: Title
+  description: Project Title
+  config:
+    required: true
