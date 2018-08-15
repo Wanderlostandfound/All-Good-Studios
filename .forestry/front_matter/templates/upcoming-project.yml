@@ -61,5 +61,3 @@ fields:
   description: choose a horizontal image for best results. 3MB maximum
   config:
     maxSize: '3'
-pages:
-- _portfolio/testing.md
