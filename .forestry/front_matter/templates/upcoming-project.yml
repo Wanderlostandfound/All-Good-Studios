@@ -20,3 +20,5 @@ fields:
   description: Project Title
   config:
     required: true
+pages:
+- _portfolio/test.md
