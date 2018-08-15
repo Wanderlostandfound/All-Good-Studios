@@ -28,3 +28,16 @@ fields:
   description: choose a horizontal image for best results
   config:
     maxSize: '3'
+- type: select
+  name: sector
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Hospitality
+    - Commercial
+    - Residential
+    - Retail
+  label: Sector
+  description: Pick a sector from the list
