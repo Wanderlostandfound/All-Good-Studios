@@ -22,3 +22,9 @@ fields:
   description: Choose a vertical image for best results
   config:
     maxSize: '3'
+- type: file
+  label: Header Img
+  name: header-img
+  description: choose a horizontal image for best results
+  config:
+    maxSize: '3'
