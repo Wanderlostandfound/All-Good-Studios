@@ -188,8 +188,8 @@ button:focus {
   font-size: 5rem;
   padding: 2rem;
 }
-.icon-padding {
-  padding: 4.5rem 4.25rem;
+.project-icon {
+  padding: 5rem;
 }
 .mainMenu,
 .project-nav {
@@ -442,9 +442,6 @@ button:focus {
   }
   .icon {
     font-size: 4rem;
-  }
-  .icon-padding {
-    padding: 2rem 1.75rem;
   }
   .portfolio-imgv {
     height: 90vh;
