@@ -9,6 +9,7 @@ fields:
   config:
     required: true
   default: upcoming
+  hidden: true
 - type: text
   name: title
   label: Title
