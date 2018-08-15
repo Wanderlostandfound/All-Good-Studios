@@ -226,6 +226,7 @@ button:focus {
 }
 .animate-right {
   position: absolute;
+  top: 0;
   right: 0;
   animation: animateright 0.6s
 }
