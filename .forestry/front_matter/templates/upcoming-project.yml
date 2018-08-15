@@ -2,4 +2,7 @@
 label: Upcoming Project
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: file
+  name: featured_image
+  label: Featured Image
