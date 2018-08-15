@@ -104,6 +104,7 @@ fields:
   config:
     maxSize: '3'
 pages:
+- _portfolio/test.md
 - _portfolio/via-hostels.md
 - _portfolio/sibling-house.md
 - _portfolio/xxiii-capital.md
