@@ -41,3 +41,9 @@ fields:
     - Retail
   label: Sector
   description: Pick a sector from the list
+- type: text
+  label: Creating
+  name: created
+  description: List of values that comes after the text "We are creating:"
+  config:
+    required: true
