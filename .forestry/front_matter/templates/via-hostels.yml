@@ -6,8 +6,10 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: true
+  hidden: false
   default: portfolio
+  config:
+    required: true
 - name: title
   label: Title
   type: text
