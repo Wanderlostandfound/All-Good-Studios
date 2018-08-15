@@ -41,6 +41,7 @@ fields:
     - Retail
   label: Sector
   description: Pick a sector from the list
+  default: Hospitality
 - type: text
   label: Creating
   name: created
@@ -53,5 +54,10 @@ fields:
   description: choose a horizontal image for best results. 3MB maximum
   config:
     maxSize: '3'
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
 pages:
 - _portfolio/testing.md
