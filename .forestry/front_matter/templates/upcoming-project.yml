@@ -3,20 +3,9 @@ label: Upcoming Project
 hide_body: false
 is_partial: false
 fields:
-- type: select
-  name: layout
-  config:
-    source:
-      type: simple
-    required: true
-    options:
-    - portfolio
-    - upcoming
-  label: Layout
-  description: Choose full Portfolio or Upcoming Project
 - type: text
   name: title
   label: Title
-  description: Project Title
+  description: Name of the Project
   config:
     required: true
