@@ -186,7 +186,7 @@ button:focus {
 }
 .icon {
   font-size: 5rem;
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
 .icon-padding {
   padding: 4.5rem 4.25rem;
@@ -367,7 +367,7 @@ button:focus {
     background-attachment: scroll;
   }
   body {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   h1 {
     font-size: 3rem;
@@ -385,7 +385,13 @@ button:focus {
     font-size: 1rem;
   }
   h6 {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .main-text {
+    font-size: 1rem;
+  }
+  .upcoming {
+    font-size: 5rem;
   }
   .preview-text p {
     font-size: 1.4rem;
@@ -408,7 +414,7 @@ button:focus {
     padding: 0.5rem;
   }
   .padded2 {
-    padding: 0.5rem;
+    padding: 1rem 1rem 2rem 1rem;
   }
   .padded2tb {
     padding: 0.5rem;
@@ -416,19 +422,10 @@ button:focus {
   .padded1 {
     padding: 0.5rem;
   }
-  .mainMenu {
-    padding: 0.5rem;
-  }
   .spacer {
     display: none;
   }
   .parallax {
-    height: 75vh;
-  }
-  .tile-gallery {
-    padding: 0.5rem;
-  }
-  .portfolio-gallery {
     height: 75vh;
   }
   .page-preview p,
@@ -446,8 +443,8 @@ button:focus {
   .icon {
     font-size: 4rem;
   }
-  .project-nav {
-    padding: 2rem;
+  .icon-padding {
+    padding: 2rem 1.75rem;
   }
   .portfolio-imgv {
     height: 90vh;
@@ -460,6 +457,18 @@ button:focus {
   }
   footer {
     padding: 0.5rem 1rem;
+  }
+  .nav {
+    padding: 0;
+  }
+  .footer-text {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding-top: 1rem;
+  }
+  .logotag {
+    top: 8px;
+    padding-bottom: 2rem;
   }
 }
 
@@ -529,9 +538,6 @@ button:focus {
   .mini-hero {
     height: 30vh;
   }
-  .tile-gallery {
-    padding: 0.5rem 0;
-  }
   .gallery-padding {
     padding: 0.5rem 0;
   }
@@ -569,6 +575,9 @@ button:focus {
   }
   .vert2 {
     padding-left: 0.5rem;
+  }
+  #loading {
+    background-image:  url("../images/loadingmobile.jpg");
   }
 
 }
