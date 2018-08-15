@@ -9,3 +9,10 @@ fields:
   description: Name of the Project
   config:
     required: true
+- type: text
+  name: description
+  label: Description
+  description: One sentence that is displayed over the featured image on the page
+    preview tiles
+  config:
+    required: true
