@@ -8,6 +8,5 @@ featured-img: "/uploads/Sibling 2.jpg"
 header-img: "/uploads/grandview 4.jpg"
 created: some stuff
 horizontal-img1: "/uploads/Sibling 3.jpg"
-published: false
 
 ---
