@@ -3,6 +3,14 @@ label: Upcoming Project
 hide_body: false
 is_partial: false
 fields:
-- type: file
-  name: featured_image
-  label: Featured Image
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - portfolio
+    - upcoming
+  label: Layout
+  description: Choose full Portfolio or Upcoming Project
