@@ -16,3 +16,9 @@ fields:
     preview tiles
   config:
     required: true
+- type: file
+  label: Featured Img
+  name: featured-img
+  description: Choose a vertical image for best results
+  config:
+    maxSize: '3'
