@@ -198,9 +198,9 @@ button:focus {
   background-color: transparent;
   width: 100%;
 }
-.project-nav {
+/* .project-nav {
   position: absolute;
-}
+} */
 .sidebar h6 {
   font-size: 3rem;
 }
