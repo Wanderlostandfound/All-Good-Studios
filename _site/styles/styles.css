@@ -117,7 +117,7 @@ a {
 }
 /* ----- HELPERS ---- */
 .spacer {
-  min-height: 5vh;
+  min-height: 2vh;
 }
 .grey {
   color: #576574;
@@ -182,7 +182,7 @@ button:focus {
 
 /* ----- NAV STYLES ---- */
 .nav {
-  padding: 3rem 3rem 0 3rem;
+  padding: 2rem 3rem 0 3rem;
 }
 .icon {
   font-size: 5rem;
