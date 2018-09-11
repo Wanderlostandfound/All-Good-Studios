@@ -117,7 +117,7 @@ a {
 }
 /* ----- HELPERS ---- */
 .spacer {
-  min-height: 2vh;
+  min-height: 3vh;
 }
 .grey {
   color: #576574;
