@@ -5,11 +5,10 @@ pagetitle: true
 ---
 
 {% include nav.html %}
-
-{% include mini-hero.html %}
-
-<section class="">
-
+<section id="fullpage">
+  <div class="section fp-auto-height">
+    {% include mini-hero.html %}
+  </div>
 
     {% for item in site.portfolio %}
       {% if item.sector == "Residential" %}
@@ -17,10 +16,9 @@ pagetitle: true
       {% endif %}
     {% endfor %}
 
-</section>
-
-<div class="padded3">
+<div class="section fp-auto-height padded3">
   <section class="portfolio-footer">
     {% include footer.html %}
   </section>
 </div>
+</section>
