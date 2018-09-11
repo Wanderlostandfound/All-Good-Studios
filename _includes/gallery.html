@@ -1,4 +1,4 @@
-<section id="fullpage">
+<section>
   {% for item in site.portfolio limit:10 %}
   <div class="section">
     <a href="{{item.url}}"><div class="mainpage-preview position-relative background-black">
@@ -12,4 +12,9 @@
     </div></a>
   </div>
   {% endfor %}
+  <div class="section fp-auto-height padded3">
+    <div class="portfolio-footer">
+      {% include footer.html %}
+    </div>
+  </div>
 </section>
