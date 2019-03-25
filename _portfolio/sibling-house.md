@@ -7,7 +7,7 @@ description: Sharing is caring.
 featured-img: "/uploads/Sibling 1.jpg"
 header-img: "/uploads/Sibling 1.jpg"
 created: Interior, Architecture, Furniture, Lighting
-horizontal-img1: "/uploads/01.jpg"
+horizontal-img1: "/uploads/sibling02-01.jpg"
 horizontal-img2: ''
 vertical-img1: ''
 vertical-img2: ''
