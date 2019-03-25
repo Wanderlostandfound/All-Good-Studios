@@ -2,10 +2,15 @@
 title: Sibling House
 layout: upcoming
 sector: Residential
-date: 2018-07-30 22:44:33 +1000
+date: 2018-07-30 12:44:33 +0000
 description: Sharing is caring.
 featured-img: "/uploads/Sibling 1.jpg"
-header-img: "/uploads/Sibling 1.jpg"
+header-img: "/uploads/01.jpg"
 created: Interior, Architecture, Furniture, Lighting
 horizontal-img1: "/uploads/Sibling 4.jpg"
+horizontal-img2: ''
+vertical-img1: ''
+vertical-img2: ''
+horizontal-img3: ''
+
 ---
