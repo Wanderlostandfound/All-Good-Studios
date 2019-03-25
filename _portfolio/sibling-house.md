@@ -4,7 +4,7 @@ layout: upcoming
 sector: Residential
 date: 2018-07-30 12:44:33 +0000
 description: Sharing is caring.
-featured-img: "/uploads/Sibling 1.jpg"
+featured-img: "/uploads/vertical_grandview-01.jpg"
 header-img: "/uploads/Sibling 1.jpg"
 created: Interior, Architecture, Furniture, Lighting
 horizontal-img1: "/uploads/01_sibling-01.jpg"
