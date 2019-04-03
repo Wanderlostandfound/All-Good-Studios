@@ -1,10 +1,10 @@
 ---
 title: XXIII Capital
 layout: portfolio
-sector: Commercial
+sector: Hospitality
 date: 2018-07-30 22:25:43 +1000
 description: 'Redefining a company. '
-featured-img: "/uploads/Capital 4.jpg"
+featured-img: "/uploads/4T6A4468.jpg"
 header-img: "/uploads/Capital 4.jpg"
 created: Interior, Furniture, Lighting
 horizontal-img1: "/uploads/Capital 2.jpg"
