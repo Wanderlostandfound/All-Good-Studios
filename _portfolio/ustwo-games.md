@@ -2,9 +2,9 @@
 title: Ustwo Games
 layout: portfolio
 sector: Commercial
-date: 2018-07-30 18:04:53 +1000
+date: 2018-07-30 08:04:53 +0000
 description: Breathing new life into an old dame.
-featured-img: "/uploads/Ustwo 4.jpg"
+featured-img: "/uploads/4T6A9512 1.jpg"
 header-img: "/uploads/Ustwo 2.jpg"
 created: Interior, Lighting, Furniture
 horizontal-img1: "/uploads/Ustwo 3.jpg"
@@ -13,6 +13,7 @@ vertical-img2: "/uploads/Ustwo 6.jpg"
 horizontal-img2: "/uploads/Ustwo 1.jpg"
 horizontal-img3: "/uploads/Ustwo 5.jpg"
 horizontal-img4: "/uploads/Ustwo 1.jpg"
+
 ---
 Working with [Ustwo Games](http://ustwogames.co.uk/) on a move from their parent company’s office in Shoreditch, we found a former pickling factory in Oval and persuaded them to relocate. <br><br>
 
